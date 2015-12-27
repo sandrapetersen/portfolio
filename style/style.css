@@ -77,11 +77,29 @@ h2 {
     font-size: 3em;
     color: black;
 }
-h4 {
+h3 {
     font-family:'Oswald', sans-serif;
     font-size: 1.5em;
     font-weight: 300;
     color: #000000;
+}
+h4 {
+    font-family:'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #ffffff;
+}
+h5 {
+	  font-family:'Oswald', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: #ffffff;
+}
+h6 {
+	  font-family:'Oswald', sans-serif;
+    font-size: 0.875em;
+    font-weight: 300;
+    color: #ffffff;
 }
 p {
     font-family: 'Raleway', sans-serif;
@@ -91,18 +109,22 @@ p {
     line-height: 1.4em
 }
 .main {
-    width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
-    overflow: auto;
+    text-align: center;
+    max-width: 1080px; /* (200+(20x2))x3 */
+    font-size: 0; /* fix for white space bug */
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
 }
 .project1 {
-    float: left;
-    width: 33.33%; 
-    text-align: center;
-    min-width: 300px;
-    margin-top: 35px;
+    vertical-align: top;
+  	display: inline-block;
+    margin: 20px;
+	  margin-top: 50px;
+    font-size: 16px;
+	  height: 300px;
+	  width: 300px;
+	  background-color: #ffffff;
 }
 .project1 > a{
     width: 300px;
@@ -183,10 +205,12 @@ adress a:hover {
 	
 /* Rabarberbaldet */
 .indhold {
-	width: 100%;	
+	width: 100%;
+	margin-bottom: -60px;
 	}
 aside {
-	width: 100%;
+	width: 96%;
+	padding: 10px;
 	}
 #imgrb {
 		width: 100%;
