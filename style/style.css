@@ -177,6 +177,10 @@ aside {
 	  margin-top: 125px;
 	  padding: 15px;
 }
+#responsive {
+	  max-width: 100%;
+	  margin-left: 297px;
+}
 #imgrb {
 	  display: block;
     margin-left: auto;
@@ -239,6 +243,12 @@ aside {
 #imgrb {
 		width: 100%;
 	}
+#responsive {
+	  width: 100%;
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #kontakt {
 	margin-left: 10px;
 	}
