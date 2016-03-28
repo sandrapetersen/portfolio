@@ -228,6 +228,9 @@ adress a:hover {
 @media screen and (max-width: 600px) {
 	
 /* Rabarberbaldet */
+h1 {
+		font-size: 2em;
+	}
 #logo {
 	margin-left: 10px;
 	}
